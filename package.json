@@ -1,0 +1,8 @@
+{
+  "name": "ts-replace",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "hgc",
+  "license": "MIT",
+  "private": "true"
+}
