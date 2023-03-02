@@ -1,8 +1,22 @@
 {
   "name": "ts-replace",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "typings": "./dist/types/index.d.ts",
   "author": "hgc",
   "license": "MIT",
-  "private": "true"
+  "private": "true",
+  "devDependencies": {
+    "@types/loader-utils": "^2.0.3",
+    "@types/node": "^18.14.2",
+    "@types/webpack": "^5.28.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "loader-utils": "^3.2.1",
+    "schema-utils": "^4.0.0"
+  }
 }
